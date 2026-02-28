@@ -1,0 +1,18 @@
+import * as React from 'react';
+import Button from '@mui/material/Button';
+import { CustomButtonProps } from "../../props/material/customButton";
+
+const CustomButton = (props: CustomButtonProps) => {
+    return (
+        <>
+            <Button variant={props.variant} loading={props.loading}
+                    className={props.customClassBtn}
+                    loadingIndicator={props.loadingIndicator}
+                    disabled={props.disabled}
+                    size={props.sizeBtn}
+                    onClick={props.onClick}>{props.title}</Button>
+        </>
+    )
+}
+
+export default CustomButton
