@@ -16,7 +16,7 @@
     "@types/vuelidate": "^0.7.22",
     "axios": "^1.12.2",
     "eslint": "^9.35.0",
-    "nuxt": "^3.19.2",
+    "nuxt": "^3.21.6",
     "pug": "^3.0.2",
     "pug-plain-loader": "^1.1.0",
     "push-dir": "^0.4.1",
